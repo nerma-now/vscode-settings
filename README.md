@@ -5,7 +5,7 @@
 <hr style="border: 1px solid #444; margin: 10px 0; width: 100%;">
 
 <div align="center">
-    <h4>🛠️ The editor is used to work with:</h4>
+    <h4>The editor is used to work with:</h4>
     <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin: 15px 0;">
         <img src="https://img.shields.io/badge/-Python-000000?style=for-the-badge&logo=python&logoColor=3776AB&labelColor=282828">
         <img src="https://img.shields.io/badge/-Docker-000000?style=for-the-badge&logo=docker&logoColor=2496ED&labelColor=282828">
