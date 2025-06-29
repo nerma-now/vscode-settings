@@ -1,27 +1,18 @@
-<div align="center">
-    <h2>My VSCode Settings</h2>
-</div>
+# VSCode Settings
 
-<hr style="border: 1px solid #444; margin: 10px 0; width: 100%;">
+My minimal editor configuration for daily development
 
-<div align="center">
-    <h4>The editor is used to work with:</h4>
-    <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin: 15px 0;">
-        <img src="https://img.shields.io/badge/-Python-000000?style=for-the-badge&logo=python&logoColor=3776AB&labelColor=282828">
-        <img src="https://img.shields.io/badge/-Docker-000000?style=for-the-badge&logo=docker&logoColor=2496ED&labelColor=282828">
-        <img src="https://img.shields.io/badge/-Git-000000?style=for-the-badge&logo=git&logoColor=F05032&labelColor=282828">
-        <img src="https://img.shields.io/badge/-Github-000000?style=for-the-badge&logo=github&logoColor=181717&labelColor=282828">
-        <img src="https://img.shields.io/badge/-Redis-000000?style=for-the-badge&logo=redis&logoColor=DC382D&labelColor=282828">
-        <img src="https://img.shields.io/badge/-PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=4169E1&labelColor=282828">
-        <img src="https://img.shields.io/badge/-Markdown-000000?style=for-the-badge&logo=markdown&logoColor=FFFFFF&labelColor=282828">
-    </div>
-</div>
+## Core Technologies
 
-<hr style="border: 1px solid #444; margin: 10px 0; width: 100%;">
+![Python](https://img.shields.io/badge/-Python-000000?style=for-the-badge&logo=python&logoColor=3776AB&labelColor=282828)
+![Docker](https://img.shields.io/badge/-Docker-000000?style=for-the-badge&logo=docker&logoColor=2496ED&labelColor=282828)
+![Git](https://img.shields.io/badge/-Git-000000?style=for-the-badge&logo=git&logoColor=F05032&labelColor=282828)
+![Github](https://img.shields.io/badge/-Github-000000?style=for-the-badge&logo=github&logoColor=181717&labelColor=282828)
+![Redis](https://img.shields.io/badge/-Redis-000000?style=for-the-badge&logo=redis&logoColor=DC382D&labelColor=282828)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=4169E1&labelColor=282828)
+![Markdown](https://img.shields.io/badge/-Markdown-000000?style=for-the-badge&logo=markdown&logoColor=FFFFFF&labelColor=282828)
 
-<div align="center">
-    <h2>List of extensions:</h2>
-</div>
+## Essential Extensions
 
 ```bash
 code --install-extension cweijan.dbclient-jdbc
@@ -41,11 +32,7 @@ code --install-extension usernamehw.errorlens
 code --install-extension zhuangtongfa.material-theme
 ```
 
-<hr style="border: 1px solid #444; margin: 10px 0; width: 100%;">
-
-<div align="center">
-    <h2>Settings</h2>
-</div>
+## Editor settings (settings.json)
 
 ```json
 {
@@ -122,11 +109,7 @@ code --install-extension zhuangtongfa.material-theme
 }
 ```
 
-<hr style="border: 1px solid #444; margin: 10px 0; width: 100%;">
-
-<div align="center">
-    <h2>Keybindings</h2>
-</div>
+## Keybindings (keybindings.json)
 
 ```json
 [
@@ -141,9 +124,6 @@ code --install-extension zhuangtongfa.material-theme
 ]
 ```
 
-<hr style="border: 1px solid #444; margin: 10px 0; width: 100%;">
+## Screenshot
 
-<div align="center">
-    <h2>Screenshot</h2>
-    <img src="resource/vscode.png">
-</div>
+![Screenshot](resource/vscode.png)
